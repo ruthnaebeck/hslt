@@ -1,0 +1,22 @@
+{
+  "name": "hslt",
+  "version": "1.0.0",
+  "description": "Hearthstone Leaderboard Tracker",
+  "main": "node server/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hearthstone"
+  ],
+  "author": "Ruth Naebeck",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "express": "4.16.4",
+    "morgan": "1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.10"
+  }
+}
