@@ -8,12 +8,12 @@
 <body>
     <h1>Hearthstone Leaderboard Tracker</h1>
     <form id="form1" method="post">
-      <label> Select Player: <select id="player" onchange="setIframeSource()">
+      <select id="player" onchange="setIframeSource()">
          <option value="https://app.datadoghq.com/graph/embed?token=891f240a90034e20765e89981ff961254898da9647954a0000079a179f2910bf&height=400&width=800&legend=true&season=*&player=player:">Select a player ...</option>
-         <option value="https://app.datadoghq.com/graph/embed?token=891f240a90034e20765e89981ff961254898da9647954a0000079a179f2910bf&height=400&width=800&legend=true&season=*&player=player:casie">Casie</option>
-         <option value="https://app.datadoghq.com/graph/embed?token=891f240a90034e20765e89981ff961254898da9647954a0000079a179f2910bf&height=400&width=800&legend=true&season=*&player=player:monsanto">Monsanto</option>
-         <option value="https://app.datadoghq.com/graph/embed?token=891f240a90034e20765e89981ff961254898da9647954a0000079a179f2910bf&height=400&width=800&legend=true&season=*&player=player:pizza">Pizza</option>
-      </select></label>
+         <option>Casie</option>
+         <option>Monsanto</option>
+         <option>Pizza</option>
+      </select>
     </form>
     <p></p>
     <iframe id="rank-for-player" src="https://app.datadoghq.com/graph/embed?token=891f240a90034e20765e89981ff961254898da9647954a0000079a179f2910bf&height=400&width=800&legend=true&season=*&player=player:" width="800" height="400" frameBorder="0" scrolling="no"></iframe>
